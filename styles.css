@@ -5,26 +5,44 @@ body {
     Find a web safe font you like, and add it 
     to your card.
     */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: serif, sans-serif, Verdana, Geneva, Tahoma;
+}
+.name {
+    font-size: 25px;
+    font-weight: bold;
+    color: #2B2B2B;
+    margin: 0px;
+    letter-spacing: 3px;
 }
 
+.title {
+    font-size: 16px;
+    color: #8B5E3B;
+    letter-spacing: 1px;
+    
+}
 .avatar {
-    width: 150px;
-    border-radius: 100%;
-    border: 3px solid #2b2839
+    width: 20%;
+    height: 25%;
+    border-radius: 5%;
+    border: 3px solid #495057;
 }
 
+p {
+    margin: 0 0 0 0;
+}
 .card {
     width: 400px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 10px;
     display: flex;
     justify-content: space-around;
     text-align: center;
-    background: #EEF4ED;
+    background: #F8F9FA;
     color: #2b2839;
-    border-bottom: 6px solid #8DA9C4;
-    border-top: 6px solid #8DA9C4;
+    border-bottom: 6px solid #212529;
+    border-top: 6px solid #212529;
+    box-shadow: 10px 10px 5px lightblue;
         
     /*
     Challenge:
@@ -37,6 +55,16 @@ body {
     border: 3px dotted blue;
 }
 
+.contact {
+    display: block;
+    margin-top: 20px;
+}
+
+.contact-item {
+    display:block;
+    margin: 1px;
+    text-decoration: none;
+}
 /*
 Stretch goals:
 Find other ways you can personalize 
@@ -56,5 +84,7 @@ in a folder called "business-card"
 */
 
 .card-content {
-    padding: 5px;
+    padding: 6px 6px 6px 20px;
+    border-left: 2px solid;
+    text-align: left;
 }
